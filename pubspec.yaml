@@ -1,0 +1,39 @@
+name: love_app
+description: "Una aplicación de Instagram personalizada para un regalo de cumpleaños"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.1.0
+  confetti: ^0.7.0
+  like_button: ^2.0.5
+  flutter_staggered_animations: ^1.1.0
+  transparent_image: ^2.0.0
+  flutter_animate: ^4.1.1+1
+  badges: ^3.0.0
+  shimmer: ^2.0.0
+  url_launcher: ^6.1.11
+  lottie: ^2.7.0  # Nueva dependencia para animaciones Lottie
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/diana.jpg
+    - assets/cakegif.gif
+    - assets/hello.png
+    - assets/katawaredoki.mp3
+    - assets/pi.png
+    - assets/background.jpg
